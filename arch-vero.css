@@ -1,0 +1,104 @@
+/* Tipografía profesional de Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f5f5f7;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+section#upload {
+  max-width: 700px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
+  border-left: 6px solid #c40505; /* Dorado elegante */
+}
+
+section#upload h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #2c2c2c;
+  font-weight: 600;
+}
+
+section#upload h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #2c2c2c;
+  font-weight: 600;
+}
+
+section#upload p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+section#upload ul {
+  padding-left: 20px;
+  margin-bottom: 30px;
+}
+
+section#upload ul li {
+  margin-bottom: 8px;
+  color: #444;
+}
+
+form label {
+  display: block;
+  margin-top: 20px;
+  font-weight: 600;
+  color: #222;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="file"] {
+  width: 100%;
+  padding: 10px 14px;
+  margin-top: 8px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  font-size: 15px;
+}
+
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form input[type="file"]:focus {
+  border-color: #c40505;
+  box-shadow: 0 0 0 3px rgba(212, 175, 55, 0.15);
+  outline: none;
+}
+
+button[type="submit"] {
+  margin-top: 30px;
+  width: 100%;
+  padding: 14px;
+  background-color: #c40505;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #c40505;
+  transform: translateY(-2px);
+}
+.logo {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 180px;
+  height: auto;
+  z-index: 1000;
+}
